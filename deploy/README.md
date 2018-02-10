@@ -33,6 +33,7 @@ source/env/bin/activate
 ```
 python manage.py migrate
 python manage.py collecstatic
+cp -r rootfiles/* staticroot/
 ```
 
 
@@ -80,5 +81,7 @@ cd ~/gorgonzola
 git pull
 python manage.py migrate
 python manage.py collecstatic
+cp -r rootfiles/* staticroot/
 sudo service supervisor restart
 ```
+
