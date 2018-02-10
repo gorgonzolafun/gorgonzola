@@ -1,1 +1,1 @@
-*/10 * * * * /your/app/directory/env/bin/python /your/app/directory/manage.py gorgonzola_status && curl -fsS --retry 3 https://hchk.io/id
+*/10 * * * * /your/app/directory/env/bin/python /your/app/directory/manage.py gorgonzola_status
