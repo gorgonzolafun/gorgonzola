@@ -7,7 +7,7 @@
 
 # THANKS
 
-    <name>
+    Nacho Muñoz Rodríguez (Moutio) http://www.monkers.net/
 
 # TECHNOLOGY COLOPHON
 
