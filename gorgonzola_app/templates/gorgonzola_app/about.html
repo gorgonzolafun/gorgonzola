@@ -1,0 +1,17 @@
+{% extends "gorgonzola_app/base.html" %}
+{% load static %}
+
+{% block scripts %}
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDvhj32TKQGn02_9xSOplUOzH_YYjmgUMc"></script>
+    <script src="{% static "js/about.js" %}"></script>
+{% endblock %}
+
+{% block content %}
+<h1>Información</h1>
+<p class="about-message">
+    Está página está construida para saber si hay Gorgonzola
+    en el menú diario del restaurante
+    <a href="https://www.facebook.com/PORTAMI-VIA-128458703849924/">Portami Via</a> en Valencia (España).
+    <div id="about-gmap-canvas"></div>
+</p>
+{% endblock %}

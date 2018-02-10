@@ -1,0 +1,29 @@
+{% extends "gorgonzola_app/base.html" %}
+
+{% block content %}
+<div class=index-message>
+    {% if gorzongola_status is False %}
+        <h1>Lo siento, hoy no hay Gorgonzola :(</h1>
+    {% else %}
+        <h1>Hoy hay Gorgonzola :)</h1>
+        <a class="btn btn-primary" href="tel:963943153">Llama para reservar</a>
+    {% endif %}
+</div>
+<div>
+    <form class="subscription" action="/subscription">
+    <div class="form-group">
+        <label for="exampleInputEmail1">
+            Introduce tu email para recibir notificaciones cuando haya
+            <a href="https://es.wikipedia.org/wiki/Gorgonzola">gorgonzola</a>
+            en <a href="https://www.facebook.com/PORTAMI-VIA-128458703849924/">Portami Via</a>
+        </label>
+        <input type="email" class="form-control" id="exampleInputEmail1"
+               aria-describedby="emailHelp" placeholder="Email" required>
+        <small id="emailHelp" class="form-text text-muted">
+            Solo te avisaremos en caso de que haya gorgonzola.
+        </small>
+    </div>
+    <button type="submit" class="btn btn-secondary">Suscribirte</button>
+    </form>
+</div>
+{% endblock %}
