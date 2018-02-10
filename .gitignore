@@ -105,7 +105,7 @@ venv.bak/
 .mypy_cache/
 
 # generated static files
-static
+staticroot
 
 # Django Settings
 */settings.py
