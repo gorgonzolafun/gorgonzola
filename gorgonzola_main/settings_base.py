@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'gorgonzola.urls'
+ROOT_URLCONF = 'gorgonzola_main.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'gorgonzola.wsgi.application'
+WSGI_APPLICATION = 'gorgonzola_main.wsgi.application'
 
 
 # Database
