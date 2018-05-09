@@ -7,5 +7,5 @@ install:
 # command to run tests
 script:
   - cp gorgonzola/settings_dev.py gorgonzola/settings.py
-  - python manage.py gorgonzola_app.tests
+  - python manage.py test gorgonzola_app.tests
 
