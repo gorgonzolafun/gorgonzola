@@ -1,5 +1,6 @@
 # Gorgonzola.fun 
 [![Build Status](https://travis-ci.org/gorgonzolafun/gorgonzola.svg?branch=master)](https://travis-ci.org/gorgonzolafun/gorgonzola)
+[![codecov](https://codecov.io/gh/gorgonzolafun/gorgonzola/branch/master/graph/badge.svg)](https://codecov.io/gh/gorgonzolafun/gorgonzola)
 
 This project is built to know if there is Gorgonzola in the daily menu of the [Portami Via](http://daringfireball.net/projects/markdown/syntax) restaurant in Valencia (Spain).
 
