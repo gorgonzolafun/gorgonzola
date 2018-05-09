@@ -32,3 +32,8 @@ python manage.py runserver
 ```
 python manage.py gorgonzola_status
 ```
+
+### Run tests
+```
+python manage.py test
+```
