@@ -4,7 +4,7 @@ certifi==2018.1.18
 chardet==3.0.4
 codecov==2.0.15
 coverage==4.5.1
-Django==2.0.2
+Django==2.2.24
 gunicorn==19.7.1
 idna==2.6
 pytz==2017.3
